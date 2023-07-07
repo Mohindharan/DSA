@@ -13,7 +13,7 @@
 public class StringReversal {
 	
 /* Function to reverse */
-	static void rvereseArray(int arr[])
+	static void reversedArray(int arr[])
 	{
 		int temp;
         int start =0;
@@ -31,10 +31,9 @@ public class StringReversal {
 	
 	/* Utility that prints out an
 	array on a line */
-	static void printArray(int arr[],
-							int size)
+	static void printArray(int arr[])
 	{
-		for (int i = 0; i < size; i++)
+		for (int i = 0; i < arr.length; i++)
 			System.out.print(arr[i] + " ");
 		
 		System.out.println();
@@ -44,10 +43,10 @@ public class StringReversal {
 	public static void main(String args[]) {
 		
 		int arr[] = {1, 2, 3, 4, 5, 6};
-		printArray(arr, 6);
-		rvereseArray(arr);
+		printArray(arr);
+		reversedArray(arr);
 		System.out.print("Reversed array is \n");
-		printArray(arr, 6);
+		printArray(arr);
 		
 	}
 }
