@@ -10,9 +10,6 @@
 // Output:  Minimum element is: 3 Maximum element is: 35
 public class MaxMin {
     
-    
-    
-    
     static class Pair {
 		int min;
 		int max;
